@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1200px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	background-color: rgb(212, 219, 224);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+	color:white;
+	border-bottom: solid #555 2px;
+	background-color: rgb(219, 143, 143);
+}
+
+.contadores {
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contadores h3 {
+	font-weight: 500;
+}
+
+.contadores span {
+	color: #f29559;
+	font-weight: 700;
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+ul {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+ul li {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+ul li span {
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+ul li form {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-update {
+	border: none;
+	font-weight: 1000;
+	font-size: 18px;
+	color: #555;
+	width: 100%;
+	outline: none;
+    background-color: antiquewhite;
+}
+
+.container-done {
+	background-color: white;
+	width: 24px;
+	height: 24px;
+	border-radius: 20px;
+	border: 2px solid var(--verde);
+	cursor: pointer;
+}
+
+.btn-delete {
+	background-color: rgb(41, 236, 90);
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 10%;
+    box-shadow: 4px 5px 2px 1px rgb(181, 181, 189);
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.btn-delete:hover {
+	background-color: rgb(63, 231, 181);
+}
+
+.btn-edit {
+	background-color: rgba(230, 226, 14, 0.678);
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 10%;
+	box-shadow: 4px 5px 2px 1px rgb(181, 181, 189);
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.btn-edit:hover {
+	background-color: blue;
+}
+
+form {
+	display: flex;
+	gap: 20px;
+}
+
+.add-todo h3 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+
+.input-add {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	box-shadow: 4px 5px 2px 1px rgb(198, 198, 206);
+	border-radius: 5%;
+	flex: 1;
+	font-size: 17px;
+	color: rgb(75, 73, 73);
+	background-color:antiquewhite;
+}
+
+.btn-add {
+	font-size: 17px; 
+	background-color: rgb(36, 15, 221);
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 10%;
+	box-shadow: 4px 5px 2px 1px rgb(181, 181, 189);
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.btn-add:hover {
+	background-color: #23c746;
+}
